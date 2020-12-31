@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "merryminecraft:red_candy_cane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "merryminecraft:green_candy_cane",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "merryminecraft:gingerbread_man",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "merryminecraft:let_it_snow_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "merryminecraft:jingle_bells_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "merryminecraft:skating_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "merryminecraft:merry_christmas_music_disc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "merryminecraft:red_candy_cane_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "merryminecraft:green_candy_cane_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "merryminecraft:ice_skating"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

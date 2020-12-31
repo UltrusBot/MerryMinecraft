@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "merryminecraft:gingerbread_block"
+    }
+  ],
+  "result": {
+    "item": "merryminecraft:gingerbread_man",
+    "count": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "skating_music": {
+    "sounds": [
+      "merryminecraft:skating"
+    ]
+  },
+  "jingle_bells_music": {
+    "sounds": [
+      "merryminecraft:jingle_bells"
+    ]
+  },
+  "let_it_snow_music": {
+    "sounds": [
+      "merryminecraft:let_it_snow"
+    ]
+  },
+  "we_wish_you_a_merry_christmas_music": {
+    "sounds": [
+      "merryminecraft:we_wish_you_a_merry_christmas"
+    ]
+  }
+}

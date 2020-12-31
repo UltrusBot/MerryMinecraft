@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "merryminecraft:block/red_candy_cane_block",
+    "top": "merryminecraft:block/red_candy_cane_block",
+    "side": "merryminecraft:block/red_candy_cane_block"
+  }
+}

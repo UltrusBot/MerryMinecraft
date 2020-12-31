@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "merryminecraft:block/red_present",
+		"particle": "merryminecraft:block/red_present"
+	},
+	"elements": [
+		{
+			"name": "box",
+			"from": [4, 0, 4],
+			"to": [12, 8, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#missing"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "lid",
+			"from": [3.7, 5.7, 3.7],
+			"to": [12.3, 8.3, 12.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 8]},
+			"faces": {
+				"north": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"east": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"south": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"west": {"uv": [0, 2, 8, 4], "texture": "#0"},
+				"up": {"uv": [8, 0, 16, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 0],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"firstperson_righthand": {
+			"scale": [0.76, 0.76, 0.76]
+		},
+		"gui": {
+			"rotation": [28, 45, 0],
+			"translation": [0, 3.75, 3.5],
+			"scale": [1.08, 1.08, 1.08]
+		},
+		"head": {
+			"translation": [0, 7.5, 0],
+			"scale": [1.75, 1.75, 1.75]
+		}
+	}
+}

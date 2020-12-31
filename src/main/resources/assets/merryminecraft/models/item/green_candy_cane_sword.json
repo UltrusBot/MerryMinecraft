@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "merryminecraft:item/green_candy_cane_sword"
+  }
+}
