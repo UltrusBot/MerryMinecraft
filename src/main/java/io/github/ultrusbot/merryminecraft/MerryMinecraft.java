@@ -73,16 +73,16 @@ public class MerryMinecraft implements ModInitializer {
     @Override
     public void onInitialize() {
         RED_CANDY_CANE = new Item(new FabricItemSettings().group(MERRY_ITEMS).food(FoodComponents.COOKIE));
-        Registry.register(Registry.SOUND_EVENT, SKATING_MUSIC_EVENT.getId(), SKATING_MUSIC_EVENT);
+        Registry.register(Registry.SOUND_EVENT, new Identifier(MOD_ID, "skating_music"), SKATING_MUSIC_EVENT);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "skating_music_disc"), SKATING_MUSIC_DISC);
 
-        Registry.register(Registry.SOUND_EVENT, LET_IT_SNOW_MUSIC_EVENT.getId(), LET_IT_SNOW_MUSIC_EVENT);
+        Registry.register(Registry.SOUND_EVENT, new Identifier(MOD_ID, "let_it_snow_music"), LET_IT_SNOW_MUSIC_EVENT);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "let_it_snow_music_disc"), LET_IT_SNOW_MUSIC_DISC);
 
-        Registry.register(Registry.SOUND_EVENT, JINGLE_BELLS_MUSIC_EVENT.getId(), JINGLE_BELLS_MUSIC_EVENT);
+        Registry.register(Registry.SOUND_EVENT, new Identifier(MOD_ID, "jingle_bells_music"), JINGLE_BELLS_MUSIC_EVENT);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "jingle_bells_music_disc"), JINGLE_BELLS_MUSIC_DISC);
 
-        Registry.register(Registry.SOUND_EVENT, WWYAMC_MUSIC_EVENT.getId(), WWYAMC_MUSIC_EVENT);
+        Registry.register(Registry.SOUND_EVENT, new Identifier(MOD_ID, "we_wish_you_a_merry_christmas_music"), WWYAMC_MUSIC_EVENT);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "merry_christmas_music_disc"), WWYAMC_MUSIC_DISC);
 
         Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "red_candy_cane_block"), RED_CANDY_CANE_BLOCK);
